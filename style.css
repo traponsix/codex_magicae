@@ -46,7 +46,9 @@
     p{color: white;}
     a{color: rgb(110, 225, 245);}
     li{color:white}
+    label{color:white}
 }
 .boxed {
     outline: 1px solid #000;
 }
+

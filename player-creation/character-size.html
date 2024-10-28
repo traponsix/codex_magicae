@@ -33,7 +33,22 @@
             <img src="../images/size_curve.png" alt="">
             <br>
             <br>
-            <p>ignore this, I'm still working on it</p>
+            <div class="boxed">
+                <input type="number" name="Height" id="height" step="0.1" value="1.8">
+                
+                <label for="Height">
+                    <select name="MeasurementUnit" id="unit">
+                        <option value="meters">Meters</option>
+                        <option value="feets">Feets</option>
+                    </select>
+                </label>
+            </div>
+
+            
+
+            <input type="button" id="addGadgetUrl" value="calculate value">
+            
+            <br>
             <p id="curve"></p>
             
             <script src="../test.js" charset="UTF-8"></script>
