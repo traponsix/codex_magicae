@@ -47,6 +47,45 @@
     a{color: rgb(110, 225, 245);}
     li{color:white}
     label{color:white}
+
+    /* Settings for tables (TABELLE) */
+    table{
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+    caption {
+        caption-side: bottom;
+        padding: 10px;
+        font-weight: bold;
+    }      
+    thead,
+    tfoot {
+        background-color: rgb(228 240 245);
+    }      
+    th,
+    td {
+        border: 1px solid rgb(160 160 160);
+        padding: 8px 10px;
+    }      
+    td:last-of-type {
+        text-align: center;
+    }    
+    tbody > tr:nth-of-type(even) {
+        background-color: rgb(208, 209, 215);
+    }      
+    tbody > tr:nth-of-type(odd) {
+        background-color: rgb(237 238 242);
+    }  
+    tfoot th {
+        text-align: right;
+    }     
+    tfoot td {
+        font-weight: bold;
+    }
+    /* End of settings for tables (TABELLE) */
 }
 .highlight {
     /*outline : 1px solid white;*/
@@ -54,7 +93,8 @@
     padding: 15px;
 }
 .boxed {
-    outline: 1px solid #000;
-    padding: 5px;
+    outline: 1px solid rgb(134, 134, 123);
+    padding: 10px;
+    width: max-content;
 }
 
