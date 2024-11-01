@@ -15,6 +15,9 @@ button.addEventListener('click', function() {
     else if(unit=='feets'){
         a = a / 3.28084;
     }
+    else if(unit==='inches'){
+        a = a / 39.37008;
+    }
 
     //find x
     var t = Math.exp(0.385)
