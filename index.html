@@ -9,33 +9,7 @@
 <body>
     <div class="header">
 
-        <div class="side-nav">
-            <p><a href="error404.html">don't know</a></p>
-            <br><br>
-            
-            <h3>Player</h3>
-            <ul>
-                <li><a href="player-creation/characteristics.html">Characteristics</a></li>
-                <li><a href="player-creation/race.html">races</a></li>
-                  <ul>
-                    <li><a href="#">Human</a></li>
-                    <li><a href="#">Elf</a></li>
-                    <li><a href="#">Dwarf</a></li>
-                  </ul>  
-                <br>
-                <li><a href="player-creation/main-skills.html">Main skills</a></li>
-                <li><a href="#">Something else</a></li>
-            </ul>
-            <br>
-            <h3>Combat</h3>
-            <ul>
-                <li><a href="combat/ca-and-defense.html">CA and defense</a></li>
-                <li><a href="combat/damage-type.html">damage type</a></li>
-                <li><a href="combat/weapon-materials.html">weapon materials</a></li>
-            </ul>  
-        </div>
-
-        <div class="main-text">
+        <div class="main-text" id="main-text">
             <!--small explanation of the project-->
             <h2>The project</h2>
             <br>
@@ -77,7 +51,7 @@
                 the first thing you will need is to create your player, you can find more information in the next pharagraph, 
                 how you do it will depend on which campaign type you want to play and you have to decide that with the game master
                 <br>
-                You can download a pdf <a href="#">here</a> or we have a prepared spreadsheet <a href="https://docs.google.com/spreadsheets/d/1DpY_pUEMf0f6sjY3ve5i4_FIyBo7v2e42wMJyJkg8bY/edit?usp=sharing">here</a>, 
+                You can download a pdf <a href="#">here</a> or we have a prepared spreadsheet <a href="https://docs.google.com/spreadsheets/d/1DpY_pUEMf0f6sjY3ve5i4_FIyBo7v2e42wMJyJkg8bY/edit?usp=sharing" target="_blank">here</a>, 
                 or perhaps just write down you stats on a piece of paper, it doesn't really matter where, you just need to be able to access those information fast.
             </p>
             <br>
@@ -103,7 +77,40 @@
                 we don't have levels (i still have to decide, or it depends from the class) <br>
             </p>
         </div>
+
+        <div class="side-nav" id="side-nav">
+
+            <h3>Player</h3>
+            <ul>
+                <li><a href="player-creation/characteristics.html">Characteristics</a></li>
+                <li><a href="player-creation/race.html">races</a></li>
+                  <ul>
+                    <li><a href="#">Human</a></li>
+                    <li><a href="#">Elf</a></li>
+                    <li><a href="#">Dwarf</a></li>
+                  </ul>  
+                <br>
+                <li><a href="player-creation/main-skills.html">Main skills</a></li>
+                <li><a href="#">Something else</a></li>
+            </ul>
+            <br>
+            <h3>Combat</h3>
+            <ul>
+                <li><a href="combat/ca-and-defense.html">CA and defense</a></li>
+                <li><a href="combat/damage-type.html">damage type</a></li>
+                <li><a href="combat/weapon-materials.html">weapon materials</a></li>
+            </ul>  
+        </div>
+
+        <!--In the end because it was unclickable under main-text-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="ShowNav.js" charset="UTF-8"></script>
+        </div>
     </div>
+
+    
 
 </body>
 </html>
