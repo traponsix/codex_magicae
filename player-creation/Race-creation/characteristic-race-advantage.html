@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
     <div class="header">
-        <div class="side-nav">
-            <a href="../index.html"><- HOME</a>
-            <br>
-            <a href="race.html"><- BACK</a>
-            <br><br>
-        </div>
 
-        <div class="main-text">
+        <div class="main-text" id="main-text">
             <h1>Characteristics race options</h1>
             <br>
             <p>
                 You can choose one between the following options and the number of characteristics you select to be added as bonus/malus to every character of your race,
-                you need to specify the <a href="characteristics.html">characteristics</a> to which that should apply (For, Des...)
+                you need to specify the <a href="../characteristics.html">characteristics</a> to which that should apply (For, Des...)
             </p>
             <br><br>
 
@@ -288,6 +282,20 @@
 
             
             
+        </div>
+
+        <div class="side-nav" id="side-nav">
+            <a href="../../index.html"><- HOME</a>
+            <br>
+            <a href="../race.html"><- BACK</a>
+            <br><br>
+        </div>
+        
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../../ShowNav.js" charset="UTF-8"></script>
         </div>
     </div>
 </body>

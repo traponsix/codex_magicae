@@ -9,11 +9,7 @@
 <body>
     <div class="header">
 
-        <div class="side-nav">
-            <a href="../index.html"><- GO BACK</a>
-        </div>
-
-        <div class="main-text">
+        <div class="main-text" id="main-text">
             <p>
                 Every material has a hardness variable, from a wood stick (1), up to whatever fantasy material you want to create, 
                 for reference something like an iron sword ig would be like 4 or 5, I'm gonna study this better later on
@@ -28,6 +24,16 @@
             </p>
         </div>
 
+        <div class="side-nav" id="side-nav">
+            <a href="../index.html"><- GO BACK</a>
+        </div>
+        
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../ShowNav.js" charset="UTF-8"></script>
+        </div>
     </div>
 </body>
 </html>

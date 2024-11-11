@@ -4,20 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
     <div class="header">
 
-        <div class="side-nav">
-            <a href="../index.html"><- HOME</a>
-            <br>
-            <a href="race.html"><- BACK</a>
-            <br><br>
-
-        </div>
-
-        <div class="main-text">
+        <div class="main-text" id="main-text">
 
             <p>
                 function to calculate size value:
@@ -30,7 +22,7 @@
                 </p>
             </div>
             <br>
-            <img src="../images/size_curve.png" alt="">
+            <img src="../../images/size_curve.png" alt="">
             <br>
             <br>
             <div class="boxed">
@@ -53,13 +45,13 @@
             <br><br>
             <p id="curve"></p>
             
-            <script src="../SizeCurveCalculator.js" charset="UTF-8"></script>
+            <script src="../../SizeCurveCalculator.js" charset="UTF-8"></script>
 
             <br><br>
             <span id="calculate_size_cost">
                 <div class="highlight">
                     <p>
-                        To know how many <a href="race.html">RCP</a> you should spend, just multiply your Size value by 2
+                        To know how many <a href="../race.html">RCP</a> you should spend, just multiply your Size value by 2
                     </p>
                 </div>
             </span> 
@@ -69,6 +61,21 @@
                 To calculate size value use the larger, single straitgh value,
                 for example if a character is more large or long than it is height, do not use height, use the larger value
             </p>
+        </div>
+
+        <div class="side-nav" id="side-nav">
+            <a href="../../index.html"><- HOME</a>
+            <br>
+            <a href="../race.html"><- BACK</a>
+            <br><br>
+
+        </div>
+        
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../../ShowNav.js" charset="UTF-8"></script>
         </div>
     </div>
     

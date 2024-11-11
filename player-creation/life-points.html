@@ -8,11 +8,8 @@
 </head>
 <body>
     <div class="header">
-        <div class="side-nav">
-            <a href="../index.html"><- HOME</a>
-        </div>
-
-        <div class="main-text">
+        
+        <div class="main-text" id="main-text">
             <h1>idk</h1>
             <br>
             <p>
@@ -23,6 +20,17 @@
             <br><br>
             <h2 id="easy_mode">easy mode</h2>
             <h2 id="realistic mode">realistic mode</h2>
+        </div>
+
+        <div class="side-nav" id="side-nav">
+            <a href="../index.html"><- HOME</a>
+        </div>
+
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../ShowNav.js" charset="UTF-8"></script>
         </div>
     </div>
 </body>

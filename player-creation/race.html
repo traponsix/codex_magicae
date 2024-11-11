@@ -9,13 +9,7 @@
 <body>
     <div class="header">
 
-        <div class="side-nav">
-            <a href="../index.html"><- BACK</a>
-            <br><br>
-            <a href="character-size.html">size</a>
-        </div>
-
-        <div class="main-text">
+        <div class="main-text" id="main-text">
                 <h1>How to create a race</h1>
                 <br><br>
                 
@@ -123,6 +117,18 @@
                 
         </div>
 
+        <div class="side-nav" id="side-nav">
+            <a href="../index.html"><- BACK</a>
+            <br><br>
+            <a href="character-size.html">size</a>
+        </div>
+        
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../ShowNav.js" charset="UTF-8"></script>
+        </div>
     </div>
 </body>
 </html>

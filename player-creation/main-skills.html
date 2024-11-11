@@ -9,11 +9,7 @@
 <body>
     <div class="header">
 
-        <div class="side-nav">
-            <a href="../index.html"><- GO BACK</a>
-        </div>
-
-        <div class="main-text">
+        <div class="main-text" id="main-text">
             <!--a base explanation of how this mechanic works, 
             explain that is the substitute of classes-->
             <h1>base explanation</h1>
@@ -23,6 +19,16 @@
             </p>
         </div>
 
+        <div class="side-nav" id="side-nav">
+            <a href="../index.html"><- GO BACK</a>
+        </div>
+
+        <!--side nav button-->
+        <div class="side-nav-button">
+            <button onclick="buttonClicked()" id="change_visibility" class="open_menu_button">MENU</button>
+
+            <script src="../ShowNav.js" charset="UTF-8"></script>
+        </div>
     </div>
 </body>
 </html>
