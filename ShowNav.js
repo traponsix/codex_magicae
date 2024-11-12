@@ -10,7 +10,6 @@ function buttonClicked(){
 }
 
 window.addEventListener('resize', () => {
-    alert(window.innerWidth)
     if(window.innerWidth >= 780){
         sideNav.style.display = "block";
         mainText.style.display = "block";
