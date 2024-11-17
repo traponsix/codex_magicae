@@ -13,7 +13,7 @@ button.addEventListener('click', function() {
 
     }
     else if(unit=='centimeters'){
-        a = a / 10;
+        a = a / 100;
     }
     else if(unit=='feets'){
         a = a / 3.28084;
